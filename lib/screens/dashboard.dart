@@ -1,4 +1,5 @@
 import 'package:firebase_signin/screens/home_screen.dart';
+import 'package:firebase_signin/screens/second_screen.dart';
 import 'package:firebase_signin/screens/signin_screen.dart';
 import 'package:firebase_signin/utils/widget_extensions.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,7 @@ class _DashboardTwoState extends State<DashboardTwo> {
     if (selectedTab == 0) {
       return HomeScreen();
     } else {
-      return SignInScreen();
+      return SreenToDisplay();
     }
   }
 
